@@ -64,6 +64,8 @@ public class JavaDataAdapterTest {
 			"java.lang.StringLatin1$CharsSpliterator",
 			"java.lang.StringUTF16$CharsSpliterator"
 		), classData.getInnerClassFullNames());
+
+		fail();
 	}
 
 	@Test
